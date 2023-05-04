@@ -157,6 +157,7 @@ body{
     }
     .card{
         padding: 48px 10px 20px 25px;
+        width: 19rem;
     }
     .card__title {
         margin-left: -34px;
