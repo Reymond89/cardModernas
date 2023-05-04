@@ -160,25 +160,28 @@ body{
     }
     .card__title {
         margin-left: -34px;
-        border-radius: 5px 2.5em 5px 2.5em;
-        padding: 5px 14px 5px 17px;
-    }  
+     
+    } 
+   
     .card__name {
         font-size: 1rem;
     }
     .card__name-description{
         font-size: 0.8rem;
     }
-    .card__paragraph{
-        font-size: 1.2rem;
-    }
+  
     .card__button{
         bottom: -29px;
     }
 }
 
-@media screen and (max-width: 300px ) {
+@media screen and (max-width: 320px ) {
     .card__paragraph{
         font-size: 1rem;
     }
+    .card__title {
+      
+        border-radius: 5px 2.5em 5px 2.5em;
+        padding: 5px 14px 5px 17px;
+    } 
 }
