@@ -20,6 +20,7 @@ body{
     align-items: center;
 }
 .card{
+ 
     position: relative;
     width: 21.875em;
     padding: 50px 20px 20px 30px;
@@ -27,7 +28,7 @@ body{
     border-radius: 7em 5px 5em 5px;
     background: linear-gradient(45deg, #0d416f 0%, #000428 100%);
     color: white;
-    box-shadow: 0px 0px 5px 3px rgba(42, 42, 49, 0.77);
+    box-shadow: 3px 5px 12px 3px rgb(4 4 26);
     transform: perspective(1000px);
     transition: 0.7s;
 }
@@ -114,7 +115,7 @@ body{
     transition: 0.7s;
     border-radius: 5px 5px 40px 5px;
     background: linear-gradient(45deg, #a544ff 0%, #5d2cfe 100%);
-    box-shadow: 0px 5px 15px #a544ff;
+    box-shadow: 0px 0px 15px #a544ff;
 }
 .card__button .fa-arrow-right{
     color: white;
@@ -129,9 +130,8 @@ body{
     background: linear-gradient(to right, #da4453, #89216b);
 }
 .card:nth-child(2) .card__button{
-    box-shadow: 0px 5px 15px #89216b;
+    box-shadow: 0px 5px 15px #da4453;
 }
-
 .card:nth-child(3) .card__background,
 .card:nth-child(3) .card__button
 {
@@ -140,20 +140,13 @@ body{
 .card:nth-child(3) .card__button{
     box-shadow: 0px 5px 15px #0575e6;
 }
-
-
-
-
-
 @media screen and (max-width: 410px) {
     .cards__container {
         width: 90%;
         padding: 40px 0;
         margin: auto;
         min-height: 100vh;
-        flex-wrap: wrap;
         gap: 50px;
-       
     }
     .card{
         padding: 48px 10px 20px 25px;
@@ -161,16 +154,13 @@ body{
     }
     .card__title {
         margin-left: -34px;
-     
     } 
-   
     .card__name {
         font-size: 1rem;
     }
     .card__name-description{
         font-size: 0.8rem;
     }
-  
     .card__button{
         bottom: -29px;
     }
@@ -181,7 +171,6 @@ body{
         font-size: 1rem;
     }
     .card__title {
-      
         border-radius: 5px 2.5em 5px 2.5em;
         padding: 5px 14px 5px 17px;
     } 
